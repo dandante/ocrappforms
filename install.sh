@@ -4,7 +4,7 @@ set -e -v
 
 
 apt-get -qq update
-apt-get install -y autoconf automake libtool wget build-essential
+apt-get install -y autoconf automake libtool wget build-essential rsync
 apt-get install -y libpng12-dev
 apt-get install -y libjpeg62-dev
 apt-get install -y libtiff4-dev
